@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boardgame.controllers.GameResultController">
+    <TableView fx:id="resultTable">
+        <columns>
+            <TableColumn fx:id="player1Column" text="Player 1"/>
+            <TableColumn fx:id="player2Column" text="Player 2"/>
+            <TableColumn fx:id="statusColumn" text="Status"/>
+            <TableColumn fx:id="turnsColumn" text="Turns"/>
+            <TableColumn fx:id="dateColumn" text="Date"/>
+            <TableColumn fx:id="durationColumn" text="Duration"/>
+        </columns>
+    </TableView>
+</VBox>

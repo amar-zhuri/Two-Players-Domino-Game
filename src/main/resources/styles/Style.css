@@ -1,0 +1,28 @@
+.square {
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-background-color: lightgray;
+}
+
+.square.selected {
+    -fx-border-width: 5;
+    -fx-border-color: slategray;
+}
+
+.board {
+    -fx-background-color: darkgray;
+    -fx-padding: 10px;
+    -fx-hgap: 5px;
+    -fx-vgap: 5px;
+}
+
+
+.current-player-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 10px;
+
+}
+
